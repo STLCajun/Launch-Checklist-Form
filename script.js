@@ -47,7 +47,7 @@ window.addEventListener("load", function() {
 			}
 
 			if (ready) {
-				launchStatus.style.color = 'black';
+				launchStatus.style.color = 'green';
 				launchStatus.innerHTML = 'Shuttle is ready for launch';
 				retrieveData();
 			} else {
